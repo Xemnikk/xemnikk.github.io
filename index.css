@@ -5,19 +5,19 @@ html {
 body {
         font-family: 'Handlee', cursive;
         font-size: 13pt;
-        background-color: #efefef;
+        background-color: #ddd4bd;
         padding: 10px;
         margin: 0;
 }
 h1 {
         font-size: 15pt;
-        color: #20bcd5;
+        color: #ff7400;
         text-align: center;
         padding: 18px 0 18px 0;
         margin: 0 0 10px 0;
 }
 h1 span {
-        border: 4px dashed #20bcd5;
+        border: 4px dashed #ff7400;
         padding: 10px;
 }
 p {
@@ -25,17 +25,17 @@ p {
         margin: 0;
 }
 .img-circle {
-        border: 3px solid white;
+        border: 3px solid #ff7400;
         border-radius: 50%;
 }
 .section {
-        background-color: #fff;
+        background-color: #4c616a;
         padding: 15px;
         margin-bottom: 10px;
         border-radius: 10px;
 }
 #header {
-        background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+        background-image: url("img.jpg");
         background-size: cover;
 }
 #header img {
@@ -46,7 +46,7 @@ p {
 }
 #header p {
         font-size: 25pt;
-        color: #3b464c;
+        color: #557ce7;
         padding-top: 5px;
         margin: 0;
         font-weight: bold;
@@ -62,13 +62,13 @@ table {
         font-size: 11pt;
 }
 table, th, td {
-        border: 2px solid #cecece;
+        border: 2px solid #ff7400;
         border-collapse: collapse;
         text-align: center;
         table-layout: fixed;
 }
 .selected {
-        background-color: #f36f48;
+        background-color: #557ce7;
         font-weight: bold;
         color: white;
 }
@@ -79,23 +79,23 @@ li {
 progress {
         width: 70%;
         height: 20px;
-        color: #3fb6b2;
+        color: #557ce7;
         background: #efefef;
 }
 progress::-webkit-progress-bar {
         background: #efefef;
 }
 progress::-webkit-progress-value {
-        background: #3fb6b2;
+        background: #557ce7;
 }
 progress::-moz-progress-bar {
-        color: #3fb6b2;
+        color: #557ce7;
         background: #efefef;
 }
 iframe, audio {
         display: block;
         margin: 0 auto;
-        border: 3px solid #3fb6b2;
+        border: 3px solid #557ce7;
 }
 hr {
         border: 0;
@@ -107,7 +107,7 @@ form {
         margin-top: 0;
 }
 .submit {
-        background-color: #3fb6b2;
+        background-color: #557ce7;
         padding: 12px 45px;
         border-radius: 5px;
         cursor: pointer;
@@ -127,7 +127,7 @@ input, textarea {
         margin-bottom: 10px;
         font-size: 11pt;
         padding: 15px 10px 10px;
-        border: 1px solid #cecece;
+        border: 1px solid #557ce7;
         background-color: #efefef;
         color: #787575;
         border-radius: 5px;
